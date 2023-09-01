@@ -47,4 +47,16 @@ public class Television extends Electrodomestico{
     public void setSincroTDT(boolean sincroTDT) {
         this.sincroTDT = sincroTDT;
     }
+
+    @Override
+    public String toString() {
+        return "Television{" +
+                "resolucion=" + resolucion +
+                ", sincroTDT=" + sincroTDT +
+                ", precio=" + precio +
+                ", color='" + color + '\'' +
+                ", consumo=" + consumo +
+                ", peso=" + peso +
+                '}';
+    }
 }

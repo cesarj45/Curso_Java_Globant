@@ -13,7 +13,7 @@ public abstract class Animal {
         this.raza = raza;
     }
 
-    public void alimentarse(){
-        System.out.println("Alimento: "+alimento);
-    }
+    public abstract void alimentarse();
+
+
 }

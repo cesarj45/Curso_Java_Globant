@@ -21,11 +21,12 @@ public class Electrodomestico {
         String consumo;
         int peso;
         System.out.println("Ingresa el color del Electrodomestico: ");
-        color = entrada.nextLine();
+        color = entrada.next();
         System.out.println("Ingresa el consumo: ");
-        consumo =  entrada.nextLine();
+        consumo =  entrada.next();
         System.out.println("Ingresa el peso(kg): ");
         peso = entrada.nextInt();
+        
 
         color = color.toUpperCase();
         color = comprobarColor(color);

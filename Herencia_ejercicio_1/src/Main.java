@@ -12,10 +12,10 @@ public class Main {
         Animal perro2 = new Perro("Teddy", "Croquetas", 10, "Chihuahua");
         perro2.alimentarse();
 
-        Animal gato1 = new Gato("Pelusa", "Galletas", 15, "Siames");
-        gato1.alimentarse();
-
-        Animal caballo1 = new Caballo("Spark", "Pasto", 25, "Fino");
-        caballo1.alimentarse();
+//        Animal gato1 = new Gato("Pelusa", "Galletas", 15, "Siames");
+//        gato1.alimentarse();
+//
+//        Animal caballo1 = new Caballo("Spark", "Pasto", 25, "Fino");
+//        caballo1.alimentarse();
     }
 }
